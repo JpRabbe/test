@@ -20,5 +20,6 @@ jobs:
     #- run: pip install -r requirements.txt
     #- run: python -m pytest tests
     - run: pip install streamlit
+    - run: pip install joblib
     - name: Test with pytest
       run: pytest
