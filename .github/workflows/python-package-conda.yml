@@ -25,4 +25,4 @@ jobs:
           pip install scikit-learn
           
     - name: Test with pytest
-      run: pytest
+      run: pytest tes1.py
