@@ -25,4 +25,4 @@ jobs:
           pip install scikit-learn
           
     - name: Test with pytest
-      run: pytest test_Project.py
+      run: streamlit run test_Project.py
