@@ -22,5 +22,7 @@ jobs:
           pip install joblib
           pip install scikit-learn
           
+    - run: python run build_model.py
+          
     - name: Test with pytest
       run: pytest tes1.py
