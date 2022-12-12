@@ -26,7 +26,7 @@ if taille > 0 and nb_rooms > 0:
     X = [[taille, nb_rooms, garden]]
     prediction = model.predict(X)
     ## afficher la prediction
-    st.write("le prix de la maison est : {}". format(prediction[0]))
+    st.write("<p id='prediction'>le prix de la maison est : {}</p>". format(prediction[0]), unsafe_allow_html=True)
 
 def main():
     import pandas as pd 
